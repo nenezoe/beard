@@ -1,0 +1,28 @@
+button{
+  min-width: 180px;
+  height:  55px;
+  background-color: #1E5959;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Exo';
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  padding: 0 35px 0 35px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all .35s;
+}
+
+button:hover {
+   background-color:#3B8C6E;
+}
+
+
+@media(max-width:376px) {
+  button{
+     padding: 0 30px 0 30px;
+     height:  54px;
+     font-size: 16px;
+   }
+}

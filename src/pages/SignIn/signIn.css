@@ -1,0 +1,143 @@
+.signin__box {
+  background-color: #f1e3d1;
+  padding: 8rem;
+  overflow: hidden;
+    height: 100vh;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign__h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.sign__p {
+  padding-top: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 10px 8px;
+  /* border-radius: 5px; */
+  outline: none;
+  border: 1px solid #000000;
+}
+
+input::placeholder {
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+
+
+.form__p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+  color: #0e0e41;
+}
+
+.form__btn {
+  text-align: center;
+   margin-top: 0.9rem;
+}
+
+
+.form__btn-social-go {
+  padding: 0.6rem 11.8rem;
+  margin-top: 1.5rem;
+  background-color: blue;
+  opacity: 1;
+  color: #ffeea4;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form__btn-social-fb {
+  padding: 0.6rem 11.4rem;
+  margin-top: 0.5rem;
+  background-color: #000072;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn__social {
+  padding-left: 0.5rem;
+}
+
+.forget__links {
+  padding-top: 1.5rem;
+}
+.forget__link {
+  color: black;
+  text-decoration: underline;
+}
+
+.forget__link:hover {
+  color: black;
+}
+
+.signup__link {
+  padding-top: 0.9rem;
+}
+
+
+@media(max-width:48rem) {
+  .sign__h1 {
+  /* font-size: ; */
+  text-align: center;
+   min-width: 500px;
+}
+
+.sign__p {
+  padding-top: 1rem;
+  text-align: center;
+  min-width: 500px;
+}
+  .sign__email input {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+
+.sign__password input {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+.signup__link{
+   text-align: center;
+  min-width: 500px;
+}
+}
+
+@media(max-width:36rem) {
+    .sign__h1 {
+  font-size: 35px;
+  text-align: center;
+}
+    .sign__email input {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.sign__password input {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.sign__p {
+  font-size: 18px;
+}
+}

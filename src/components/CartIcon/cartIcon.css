@@ -1,0 +1,26 @@
+
+.icon__cart {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.icon__number {
+    background-color: #3B8C6E;
+    color:white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 155px;
+    position: relative;
+    right:10px;
+}
+
+@media(max-width:768px) {
+  .icon__number {
+      position: relative;
+      left: -6px;
+      bottom: 5px;
+    }
+}

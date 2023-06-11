@@ -1,0 +1,14 @@
+  .shop_container{
+      position: relative;
+        padding: 100px;
+        min-height: 100vh;
+        overflow: hidden;
+  }
+
+
+@media (max-width: 45rem) {
+  .shop_container{
+    margin: 50px auto 0;
+    padding: 50px;
+  }
+}

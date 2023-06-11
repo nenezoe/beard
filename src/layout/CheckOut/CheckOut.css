@@ -1,0 +1,68 @@
+.all-check{
+    margin: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+
+.input-item{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.check-box{
+    width: 500px;
+    height: 100%;
+    
+    padding: 2rem;
+    border: 3px dotted darkgray;
+}
+.check {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__items {
+    margin-left: 2rem;
+}
+
+/* .cart__modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+textarea{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 8px;
+    margin-top: 2rem;
+    outline: none;
+    border: 1px solid #000000;
+  }
+
+.cart__h1{
+    font-size: 14px;
+    color: #0e0e41;
+}
+
+
+@media(max-width:768px) {
+.cart__h1 {
+        font-size: 14px;
+        color: #0e0e41;
+    }
+
+    .all-check{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .cart__span {
+            font-size: 14px;
+            padding-top: 0.5rem;
+        }
+}
