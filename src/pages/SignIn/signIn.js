@@ -40,13 +40,10 @@ function SignIn() {
 
 	const handleUD = async () => {
 		if(!udUser){
-			console.log(uauth);
 			try {
-				console.log(uauth);
 				const authorization = await uauth.loginWithPopup();
 				window.location.reload();
-			
-				// console.log(authorization);
+		
 			  } catch (error) {
 				console.error(error);
 			  }
@@ -68,7 +65,6 @@ function SignIn() {
 		  .catch((e) => {
 			console.log(e)
 		  })
-		  console.log(window.location.href, 'helllllooooooooo');
 		  
 	
 	  }, [uauth])
